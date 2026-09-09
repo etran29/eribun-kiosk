@@ -1,0 +1,16 @@
+{
+  "name": "eribun-kiosk",
+  "version": "1.0.0",
+  "description": "Cute café kiosk",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.3.0"
+  }
+}
