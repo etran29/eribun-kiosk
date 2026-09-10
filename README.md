@@ -1,12 +1,12 @@
-# 🧋 Eribun Kiosk
+# Eribun Kiosk
 
 Eribun café self-service kiosk
 
-## 🚧 Status
+## Status
 
 Currently in development...
 
-## ✨ Planned Features
+## Planned Features
 
 - [ ] Café menu
 - [ ] Drinks
@@ -17,7 +17,7 @@ Currently in development...
 - [ ] Staff dashboard
 - [ ] Inventory management
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Electron
 - JavaScript
@@ -25,7 +25,7 @@ Currently in development...
 - CSS
 - SQLite (planned)
 
-## 💻 Running locally
+## Running locally
 
 ```bash
 npm install
