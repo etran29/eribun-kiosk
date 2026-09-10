@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eribun Café - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="menu-screen">
+        <header class="menu-header">
+            <h2>♡ ERIBUN CAFÉ</h2>
+            <button id="back-button">← Back</button>
+            <button class="cart-button">🛒 <span>0</span></button>
+        </header>
+
+        <section class="menu-intro">
+            <h1>What are you craving?</h1>
+            <p>made with love ♡</p>
+        </section>
+
+        <nav class="categories">
+            <button class="category-button active" data-category="all">All</button>
+            <button class="category-button" data-category="drinks">🧋 Drinks</button>
+            <button class="category-button" data-category="bakery">🥐 Bakery</button>
+            <button class="category-button" data-category="cakes">🍰 Cakes</button>
+        </nav>
+
+        <section class="product-grid">
+
+            <!-- strawberry latte -->
+            <article class="product-card" data-category="drinks">
+                <div class="product-image">🧋</div>
+                <h2>Strawberry Latte</h2>
+                <p>sweet & creamy</p>
+                <div class="product-bottom">
+                    <span>£4.50</span>
+                    <button class="add-button">+</button>
+                </div>
+            </article>
+
+            <!-- matcha latte -->
+            <article class="product-card" data-category="drinks">
+                <div class="product-image">🍵</div>
+                <h2>Matcha Latte</h2>
+                <p>soft & earthy</p>
+                <div class="product-bottom">
+                    <span>£4.20</span>
+                    <button class="add-button">+</button>
+                </div>
+            </article>
+
+            <!-- strawberry cream cake -->
+            <article class="product-card" data-category="cakes">
+                <div class="product-image">🍓</div>
+                <h2>Strawberry Cream Cake</h2>
+                <p>fluffy & sweet</p>
+                <div class="product-bottom">
+                    <span>£4.80</span>
+                    <button class="add-button">+</button>
+                </div>
+            </article>
+
+            <!-- butter croissant -->
+            <article class="product-card" data-category="bakery">
+                <div class="product-image">🥐</div>
+                <h2>Butter Croissant</h2>
+                <p>golden & flaky</p>
+                <div class="product-bottom">
+                    <span>£3.20</span>
+                    <button class="add-button">+</button>
+                </div>
+            </article>
+        </section>
+
+    </main>
+    <script src="menu.js"></script>
+
+</body>
+
+</html>
