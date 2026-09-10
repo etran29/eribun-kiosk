@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Quicksand", sans-serif;;
 }
 
 /* welcome */
@@ -26,6 +26,7 @@ body {
 .welcome-screen h1 {
     font-size: 64px;
     margin: 10px 0;
+    font-family: "Fredoka", sans-serif;
 }
 
 .subtitle {
@@ -53,6 +54,7 @@ button {
 .menu-screen h1 {
     font-size: 42px;
     margin: 20px 0;
+    font-family: "Fredoka", sans-serif;
 }
 
 .categories {
@@ -105,6 +107,7 @@ button {
 .product-card h2 {
     font-size: 20px;
     margin: 10px 0;
+    font-family: "Fredoka", sans-serif;
 }
 
 .product-card p {
@@ -142,4 +145,13 @@ button {
     padding: 12px 22px;
     background: white;
     border-radius: 20px;
+}
+
+.cart-item {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 20px;
+    max-width: 600px;
+    font-size: 18px;
 }

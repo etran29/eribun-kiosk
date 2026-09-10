@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eribun Café - Menu</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -13,7 +15,7 @@
         <header class="menu-header">
             <h2>♡ ERIBUN CAFÉ</h2>
             <button id="back-button">← Back</button>
-            <button class="cart-button">🛒 <span>0</span></button>
+            <button class="cart-button" id="cart-button">🛒 <span>0</span></button>
         </header>
 
         <section class="menu-intro">
@@ -31,7 +33,7 @@
         <section class="product-grid">
 
             <!-- strawberry latte -->
-            <article class="product-card" data-category="drinks">
+            <article class="product-card" data-category="drinks" data-name="Strawberry Latte">
                 <div class="product-image">🧋</div>
                 <h2>Strawberry Latte</h2>
                 <p>sweet & creamy</p>
@@ -42,7 +44,7 @@
             </article>
 
             <!-- matcha latte -->
-            <article class="product-card" data-category="drinks">
+            <article class="product-card" data-category="drinks" data-name="Matcha Latte">
                 <div class="product-image">🍵</div>
                 <h2>Matcha Latte</h2>
                 <p>soft & earthy</p>
@@ -53,7 +55,7 @@
             </article>
 
             <!-- strawberry cream cake -->
-            <article class="product-card" data-category="cakes">
+            <article class="product-card" data-category="cakes" data-name="Strawberry Cream Cake">
                 <div class="product-image">🍓</div>
                 <h2>Strawberry Cream Cake</h2>
                 <p>fluffy & sweet</p>
@@ -64,7 +66,7 @@
             </article>
 
             <!-- butter croissant -->
-            <article class="product-card" data-category="bakery">
+            <article class="product-card" data-category="bakery" data-name="butter croissant">
                 <div class="product-image">🥐</div>
                 <h2>Butter Croissant</h2>
                 <p>golden & flaky</p>

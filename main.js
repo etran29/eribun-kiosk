@@ -11,6 +11,7 @@ function createWindow() {
   });
 
   window.loadFile("index.html");
+  window.webContents.openDevTools({ mode: "detach" });
 }
 
 app.whenReady().then(() => {
